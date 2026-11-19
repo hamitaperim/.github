@@ -5,11 +5,11 @@ This guide covers every repository in the hamitaperim organization.
 ## How work flows
 
 1. Pick an issue from the [roadmap](https://github.com/orgs/hamitaperim/projects/1) or the repository's issue list, and assign yourself.
-2. Create a branch from `main`. Name it `type/short-description`, for example `feat/week-view-filters` or `fix/calendar-timezone`.
+2. Fork the repository to your own account and create a branch from `main` in your fork. Name it `type/short-description`, for example `feat/week-view-filters` or `fix/calendar-timezone`. Maintainers branch in the main repository.
 3. Commit in small steps using [Conventional Commits](https://www.conventionalcommits.org): `feat(home): add week view filters`.
 4. Open a pull request and fill in the template. Link the issue with `Closes #123`.
 5. A maintainer reviews every pull request. A designer also reviews changes to screens, styles and copy.
-6. Merge with squash or rebase once the review is approved and CI is green. The branch is deleted on merge.
+6. A maintainer merges with squash or rebase once the review is approved and CI is green.
 
 ## What a good pull request has
 
