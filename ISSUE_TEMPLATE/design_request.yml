@@ -1,0 +1,20 @@
+name: Design request
+description: Visual, UX, copy or accessibility work
+labels: ["type:design", "needs-triage"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What should change for the visitor
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Page, view or component.
+  - type: textarea
+    id: refs
+    attributes:
+      label: References
+      description: Figma links, screenshots, examples.

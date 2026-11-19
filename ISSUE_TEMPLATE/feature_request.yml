@@ -1,0 +1,17 @@
+name: Feature request
+description: An idea for the site, the data or the MCP server
+labels: ["type:feature", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve
+      description: Who needs it and what they do today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you suggest
+    validations:
+      required: true
