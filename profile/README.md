@@ -1,8 +1,17 @@
-# המיטאפרים · hamitaperim
+# המיטאפרים
 
-Every in-person tech meetup in Israel, on one board that refreshes daily.
+קהילה של אנשי טק שמגיעים למיטאפים ביחד בישראל. מוצאים מפגשים, מכירים אנשים ומשתפים ידע.
 
-- **Site:** [hamitaperim.com](https://hamitaperim.com)
-- **For agents:** a free public MCP server with search over meetups and sources. See [hamitaperim.com/agents](https://hamitaperim.com/agents).
-- **Add a meetup or a source:** use the form on the site.
-- **Security reports:** see the [security policy](https://github.com/hamitaperim/.github/blob/main/SECURITY.md).
+[לוח המיטאפים](https://hamitaperim.com) · [קהילת WhatsApp](https://chat.whatsapp.com/IydpjwkvkqGITYwDatKxMo) · [הצעת מקור חדש](https://hamitaperim.com/#new-source)
+
+## המאגרים שלנו
+
+- [.github](https://github.com/hamitaperim/.github) מרכז את פרופיל הארגון ומידע לקהילה.
+
+## In English
+
+Hamitaperim is a community for tech meetups in Israel. The [meetup board](https://hamitaperim.com) brings events together, and the [public MCP server](https://hamitaperim.com/agents) lets assistants search meetups and sources.
+
+מקימי הקהילה · [Yoan Wainmann](https://www.linkedin.com/in/yoan-wai/) · [Or Assayag](https://www.linkedin.com/in/orassayag)
+
+Share meetup suggestions through the [site](https://hamitaperim.com/#new-source). Repository collaborators can also use GitHub Issues. For security issues, see the [security policy](https://github.com/hamitaperim/.github/blob/main/SECURITY.md).
