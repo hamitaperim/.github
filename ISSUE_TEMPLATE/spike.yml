@@ -1,0 +1,40 @@
+name: Spike
+description: Resolve uncertainty before committing to implementation
+type: Spike
+labels: [needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and decision needed
+      description: Explain what is unknown and why the decision matters.
+    validations:
+      required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions to answer
+      description: List the concrete questions this investigation will resolve.
+    validations:
+      required: true
+  - type: textarea
+    id: timebox
+    attributes:
+      label: Time box and evidence
+      description: Set a time limit and describe what sources or experiments will inform the decision.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected output
+      description: Record a recommendation, alternatives, evidence and defined build issues with acceptance criteria, or a decision to stop.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and scope
+      description: Link the parent epic and any access or external decision needed.
+    validations:
+      required: false

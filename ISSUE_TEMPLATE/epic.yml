@@ -1,0 +1,40 @@
+name: Epic
+description: Track an outcome through linked sub-issues
+type: Epic
+labels: [needs-triage]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Outcome and target users
+      description: What measurable change should this epic deliver?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and boundaries
+      description: Include what is covered and the explicit exclusions.
+    validations:
+      required: true
+  - type: textarea
+    id: children
+    attributes:
+      label: Child issues
+      description: Link existing issues or list proposed deliverables. Triage attaches native sub-issues.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and risks
+      description: Link prerequisites and decisions. Identify responsible roles.
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Epic acceptance criteria
+      description: Define the outcome and when the epic can close.
+    validations:
+      required: true

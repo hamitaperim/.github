@@ -1,20 +1,54 @@
 name: Design request
-description: Visual, UX, copy or accessibility work
-labels: ["type:design", "needs-triage"]
+description: Define reviewable UX and visual decisions
+type: Design
+labels: [needs-triage]
 body:
   - type: textarea
-    id: goal
+    id: problem
     attributes:
-      label: What should change for the visitor
+      label: Problem
+      description: What is difficult or missing, and what outcome should change?
     validations:
       required: true
-  - type: input
-    id: where
-    attributes:
-      label: Where
-      description: Page, view or component.
   - type: textarea
-    id: refs
+    id: users
     attributes:
-      label: References
-      description: Figma links, screenshots, examples.
+      label: Target user and task
+      description: Who is using this and what are they trying to achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current state and screens
+      description: List affected pages, components, states and current screenshots or links.
+    validations:
+      required: true
+  - type: textarea
+    id: mockups
+    attributes:
+      label: Mockups and reference links
+      description: Link design files, alternatives or examples. State which decisions remain open.
+    validations:
+      required: false
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Cover Hebrew and RTL, mixed-direction text, mobile/desktop sizes, accessibility, existing components and technical or content limits.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Define reviewable outcomes, responsive states, interactions and the required design handoff.
+    validations:
+      required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: Open questions
+      description: List unresolved choices, dependencies and required reviewers by role.
+    validations:
+      required: true
