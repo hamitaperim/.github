@@ -21,7 +21,7 @@ This guide covers every repository in the hamitaperim organization.
 ## Labels
 
 - `type:*` says what kind of work it is, `area:*` says where, `priority:*` and `size:*` help planning.
-- New issues start with `needs-triage`. A maintainer moves them to `accepted`.
+- Issue forms start with `needs-triage`. Bug and feature forms also add `area:site`. Maintainers select other affected areas during triage. A maintainer moves new issues to `accepted`.
 
 ## Secrets and data
 

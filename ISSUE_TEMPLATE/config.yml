@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Report a security vulnerability
+  - name: Community and meetup board
+    url: https://hamitaperim.com
+    about: Find meetups and use the community suggestion forms.
+  - name: Report a security vulnerability privately
     url: https://github.com/hamitaperim/.github/blob/main/SECURITY.md
-    about: Please report security problems privately, not in a public issue.
+    about: Follow the security policy for confidential reporting.
