@@ -1,7 +1,7 @@
 name: Feature request
 description: Propose a capability or improvement
 type: Feature
-labels: [needs-triage]
+labels: [needs-triage, area:site]
 body:
   - type: textarea
     id: problem
