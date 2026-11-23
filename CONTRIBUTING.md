@@ -20,8 +20,8 @@ This guide covers every repository in the hamitaperim organization.
 
 ## Labels
 
-- `type:*` says what kind of work it is, `area:*` says where, `priority:*` and `size:*` help planning.
-- Issue forms start with `needs-triage`. Bug and feature forms also add `area:site`. Maintainers select other affected areas during triage. A maintainer moves new issues to `accepted`.
+- Issues use a native type, Epic, Feature, Bug, Spike, Design, Chore or Task. Use Chore for documentation and refactoring issues. Repository contribution guides define PR label conventions. Site PRs use one `type:*` label and at least one affected `area:*` label.
+- Forms add `needs-triage`. Bug and Feature forms also add `area:site`. Maintainers review intake, set its native type and affected areas, then remove `needs-triage`. For items tracked in project #2, set Status, Horizon and Discipline as appropriate. Use Todo for accepted work that is ready to pick up. Keep priority and effort separate from workflow state.
 
 ## Secrets and data
 
