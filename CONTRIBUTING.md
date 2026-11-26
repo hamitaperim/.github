@@ -4,7 +4,7 @@ This guide covers every repository in the hamitaperim organization.
 
 ## How work flows
 
-1. Pick an issue from the [roadmap](https://github.com/orgs/hamitaperim/projects/1) or the repository's issue list, and assign yourself.
+1. Pick an issue from [hamitaperim work](https://github.com/orgs/hamitaperim/projects/2) or the repository's issue list, and assign yourself.
 2. Create a branch from `main`. Name it `type/short-description`, for example `feat/week-view-filters` or `fix/calendar-timezone`.
 3. Commit in small steps using [Conventional Commits](https://www.conventionalcommits.org): `feat(home): add week view filters`.
 4. Open a pull request and fill in the template. Link the issue with `Closes #123`.
